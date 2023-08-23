@@ -1,4 +1,7 @@
 # Put the files that will be ignored for Git here.
 
-# Ignore file how-to-create.txt
+# Ignore the file how-to-create-repos.txt
 how-to-create-repos.txt
+
+# Ignore the file how-to-gen-ssh.txt
+how-to-gen-ssh.txt
