@@ -1,7 +1,11 @@
 {
+    "window.zoomLevel": 1,
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter"
     },
     "python.formatting.provider": "none",
-    "python.analysis.typeCheckingMode": "basic"
+    "python.analysis.typeCheckingMode": "basic",
+    "editor.fontSize": 11,
+    "terminal.integrated.fontSize": 11
+
 }
