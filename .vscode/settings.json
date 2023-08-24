@@ -6,5 +6,6 @@
     "python.formatting.provider": "none",
     "python.analysis.typeCheckingMode": "basic",
     "editor.fontSize": 11,
-    "terminal.integrated.fontSize": 11
+    "terminal.integrated.fontSize": 11,
+    "task.saveBeforeRun": "always"
 }
