@@ -14,7 +14,6 @@ except:
 # but, I preferred to use the following code.
 """
 
-"""
 number = input( 'Type an integer number: ' )
 
 if ( not len( number ) ): # was something typed?
@@ -33,14 +32,13 @@ if (  remainder ):
     print( f'The number {number} is odd.' )
 else:
     print( f'The number {number} is even.' )
-"""
 
 """
 Faça um programa que pergunte a hora ao usuário e, baseando-se no horário 
 descrito, exiba a saudação apropriada. Ex. 
 Bom dia 0-11, Boa tarde 12-17 e Boa noite 18-23.
 """
-"""
+
 hour = input( 'Type an hour (0-23): ' )
 
 if ( not len( hour ) ): # was something typed?
@@ -61,13 +59,13 @@ elif ( ihour >= 18 ) and ( ihour <= 23 ):
 else:
     print( 'Error: you should have typed an integer number between 0 and 23!' )
     exit( 0 )
-"""
+
 """
 Faça um programa que peça o primeiro nome do usuário. Se o nome tiver 4 letras ou 
 menos escreva "Seu nome é curto"; se tiver entre 5 e 6 letras, escreva 
 "Seu nome é normal"; maior que 6 escreva "Seu nome é muito grande". 
 """
-"""
+
 name = input( 'Type your name: ' )
 
 if ( not len( name ) ): # was something typed?
@@ -83,4 +81,3 @@ elif ( name_len >= 5  ) and ( name_len <= 6  ):
     print( 'You name is common!' )
 else:
     print( 'You name is very long!' )
-"""
