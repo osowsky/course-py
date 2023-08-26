@@ -52,4 +52,4 @@ while ( test_word != KEY_WORD ):
     attempts += 1
 
 print( f'Congrats: You have found the key word \'{KEY_WORD}\'.' )
-print( f'The have reached it in {attempts} attempts.' )
+print( f'You have reached it in {attempts} attempts.' )
