@@ -15,6 +15,9 @@ Faça a contagem de tentativas do seu
 usuário.
 """
 
+import os # It is required to use the 'system' method.
+
+
 KEY_WORD = 'jefferson e josiane' # work to be found (key work).
 KEY_WORD_LEN = len( KEY_WORD ) # its length.
 
@@ -26,6 +29,8 @@ while ( test_word != KEY_WORD ):
     print( 'Word:', test_word, '\t', 'Attempts:', attempts )
     letter = input( 'Type a letter (a-z or space): ' )
     
+    os.system( 'cls' )
+
     if ( len( letter ) != 1 ): # test the letter size.
         attempts += 1
         continue
@@ -48,5 +53,3 @@ while ( test_word != KEY_WORD ):
 
 print( f'Congrats: You have found the key word \'{KEY_WORD}\'.' )
 print( f'The have reached it in {attempts} attempts.' )
-
-
