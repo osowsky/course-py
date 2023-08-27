@@ -40,6 +40,7 @@ while ( test_word != KEY_WORD ):
         continue
 
     # show this letter in the tested word.
+    """
     word = ''
     for l in range( KEY_WORD_LEN ):
         if ( KEY_WORD[ l ] == letter ):
@@ -48,6 +49,18 @@ while ( test_word != KEY_WORD ):
             word = word + '*'
         else:
             word = word + KEY_WORD[ l ]
+    test_word = word
+    attempts += 1
+    """
+    # a better solution, by using enumerate.
+    word = ''
+    for i, l in enumerate( KEY_WORD ):
+        if ( l == letter ):
+            word = word + letter
+        elif ( test_word[ i ] == '*' ):
+            word = word + '*'
+        else:
+            word = word + l
     test_word = word
     attempts += 1
 
