@@ -27,7 +27,7 @@ O primeiro dígito do CPF é 7
 
 # Type an CPF and check if it has the correct size.
 szCPF = input( ' Type a CPF ( only eleven numbers): ' )
-# szCPF = '74682489070' # A CPF for testing.
+# szCPF = '24682962574' # A CPF for testing.
 CPFLen = len( szCPF )
 if ( CPFLen != 11 ):
     print( 'An CPF MUST have eleven numbers. You type an invalid CPF.' )
