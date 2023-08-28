@@ -17,6 +17,6 @@ def fn_1st_level():
     fn_2nd_level()
     print( 'fn_1st_level:', x )
 
-# print( 'module_level:', x )
+print( 'module_level:', x )
 fn_1st_level()
-# print( 'module_level:', x )
+print( 'module_level:', x )
