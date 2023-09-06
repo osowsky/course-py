@@ -6,6 +6,9 @@ how-to-create-repos.txt
 # Ignore the file how-to-gen-ssh.txt
 how-to-gen-ssh.txt
 
+# Ignore the file how-to-use-venv.txt
+how-to-use-venv.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
