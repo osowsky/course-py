@@ -9,6 +9,9 @@ how-to-gen-ssh.txt
 # Ignore the file how-to-use-venv.txt
 how-to-use-venv.txt
 
+# Ignore the file how-to-use-pip.txt
+how-to-use-pip.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
