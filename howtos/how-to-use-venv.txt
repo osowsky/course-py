@@ -1,0 +1,13 @@
+# Installing virtual environment.
+# .venv is the name of the virtual environment directory.
+python -m venv .venv
+
+# Activating\deactivating the venv (Windows)
+.\.venv\Scripts\activate
+deactivate
+
+# Activating\deactivating the venv (Linux)
+source .\.venv\bin\activate
+deactivate
+
+

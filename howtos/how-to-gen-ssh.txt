@@ -1,0 +1,5 @@
+# Generate a ssh public/private key.
+ssh-keygen -t id_ed25519 -C "YOUR_EMAIL"
+
+# Copy the contents of the id_ed25519.pub file to your clipboard
+clip < ~/.ssh/id_ed25519.pub

@@ -1,0 +1,14 @@
+python -m pip install pip --upgrade
+
+pip install <pkg_name> [--upgrade]
+pip uninstall <pkg_name>
+
+# show all installed packages with their versions.
+pip freeze
+
+# inside the venv.
+pip freeze > requirements.txt
+pip install -r|--requirement ./requirements.txt 
+
+pip index versions <pkg_name>
+pip install <pkg_name>==<pkg_version>
