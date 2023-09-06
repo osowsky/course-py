@@ -16,5 +16,8 @@ how-to-use-pip.txt
 __pycache__/
 *.py[cod]
 
-# Ignore venv files and directories.
+# Ignore virtual environments (files and directories).
+.env/
 .venv/
+env/
+venv/
