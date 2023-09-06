@@ -12,3 +12,6 @@ how-to-use-venv.txt
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+
+# Ignore venv files and directories.
+.venv/
