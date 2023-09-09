@@ -115,6 +115,8 @@ typed_opt = ''
 while ( typed_opt != 'e' ):
     print_options()
     typed_opt = get_option()
+    if ( typed_opt == '' ):
+        continue
 
     # Execute the desired command.
     cmd = commands[ typed_opt ]
