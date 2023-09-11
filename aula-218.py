@@ -55,7 +55,7 @@ class Car:
         print( f'Manufacturer: { self.factory.name }' )
     
     def __del__( self ) -> None:
-        print( f'deleting { self.__class__ } with { self.name=}' )
+        print( f'deleting { self.__class__.__name__ } with { self.name=}' )
 
 #--------------------------------------------------------------------
 # Engine class.
@@ -72,7 +72,7 @@ class Engine:
         self._name = name
 
     def __del__( self ) -> None:
-        print( f'deleting { self.__class__ } with { self.name=}' )
+        print( f'deleting { self.__class__.__name__ } with { self.name=}' )
 
 #--------------------------------------------------------------------
 # Factory class.
@@ -100,7 +100,7 @@ class Factory:
         self._name = name
 
     def __del__( self ) -> None:
-        print( f'deleting { self.__class__ } with { self.name=}' )
+        print( f'deleting { self.__class__.__name__ } with { self.name=}' )
 
 #--------------------------------------------------------------------
 # Main
