@@ -1,6 +1,6 @@
 python -m pip install pip --upgrade
 
-# Run all of the code below outside the pyhton.
+# Run all of the code below outside the python.
 pip install <pkg_name> [--upgrade]
 pip uninstall <pkg_name>
 
