@@ -1,0 +1,9 @@
+1) Visual Studio Code ( choose user installer )
+	https://code.visualstudio.com/download
+	Install the following extensions: Python, Pylance, Autopep8, and Git Graph.
+	Copy the files .vscode/settings.json and .vscode/launch.json to
+		configure the VS Code.
+
+2) Pyhton
+	https://www.python.org/downloads/
+	On the fisrt window mark the checkbox "Add python.exe to PATH "
