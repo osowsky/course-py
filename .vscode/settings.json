@@ -1,9 +1,8 @@
 {
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 0.5,
         "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter"
+        "editor.defaultFormatter": "ms-python.autopep8"
     },
-    "python.formatting.provider": "none",
     "python.analysis.typeCheckingMode": "basic",
     "editor.fontSize": 12,
     "terminal.integrated.fontSize": 12,
