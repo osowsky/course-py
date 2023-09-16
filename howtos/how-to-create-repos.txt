@@ -2,8 +2,8 @@ git init
 git config --global user.email "jeff.osowsky@hotmail.com"
 git config --global user.name "Jefferson Osowsky"
 git branch -M main
-git remote add origin git@github.com:osowsky/course-py.git
-echo "# course-py" >> README.md
+git remote add origin git@github.com:osowsky/<folder>.git
+echo "# <folder>" >> README.md
 git add README.md
 git commit -m "first commit"
 git push -u origin main
