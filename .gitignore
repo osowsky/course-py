@@ -1,17 +1,5 @@
 # Put the files that will be ignored for Git here.
 
-# Ignore the file how-to-create-repos.txt
-# how-to-create-repos.txt
-
-# Ignore the file how-to-gen-ssh.txt
-# how-to-gen-ssh.txt
-
-# Ignore the file how-to-use-venv.txt
-# how-to-use-venv.txt
-
-# Ignore the file how-to-use-pip.txt
-# how-to-use-pip.txt
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
