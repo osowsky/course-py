@@ -1,0 +1,4 @@
+# To add a existing repo into another new repo.
+# From the new repo type:
+
+git submodule add git@github.com:osowsky/<existing-repo>

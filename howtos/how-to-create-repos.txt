@@ -1,3 +1,5 @@
+# Create a new repo( folder ) on github.
+
 git init
 git config --global user.email "jeff.osowsky@hotmail.com"
 git config --global user.name "Jefferson Osowsky"
