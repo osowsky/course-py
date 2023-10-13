@@ -1,0 +1,10 @@
+# Please, read the content in https://py-pkgs.org/
+#
+# Install poetry and cookiecutter:
+pip install cookiecutter --upgrade
+
+# Please, read https://python-poetry.org/docs/ for installing poetry.
+# Windows PowerShell:
+(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | python -
+# Add poetry path the the PATH env.
+%APPDATA%\Python\Scripts
