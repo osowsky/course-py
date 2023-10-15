@@ -6,5 +6,27 @@ pip install cookiecutter --upgrade
 # Please, read https://python-poetry.org/docs/ for installing poetry.
 # Windows PowerShell:
 (Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | python -
+
 # Add poetry path the the PATH env.
 %APPDATA%\Python\Scripts
+
+# Create the package strcture.
+cookiecutter https://github.com/py-pkgs/py-pkgs-cookiecutter.git
+
+# Local installation of the package and check it for dependencies.
+poetry install
+poetry add <pack-dependency> --python "python <version requirement>"
+
+# To add packs for development only. e.g. pytest
+poetry add --group dev pytest
+
+# Poetry commands reference, see: https://python-poetry.org/docs/cli/
+
+# Changing a version in poetry.
+poetry version [major|minor|patch]
+# major is used when a new class was created.
+# minor is used when a new method/attribute wa created.
+# patth is used when a bugfix was fixed.
+
+# A new version is updated when "poetry install" is ran again.
+poetry install
