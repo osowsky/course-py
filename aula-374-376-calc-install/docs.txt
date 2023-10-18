@@ -1,0 +1,8 @@
+# PyInstaller Docs.
+https://pyinstaller.org/en/stable/
+
+# Tutorial pySide6 with PyInstaller
+https://www.pythonguis.com/tutorials/packaging-pyside6-applications-windows-pyinstaller-installforge/
+
+# Command line.
+see batch file make-exefile.bat
