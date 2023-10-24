@@ -28,5 +28,17 @@ poetry version [major|minor|patch]
 # minor is used when a new method/attribute wa created.
 # patth is used when a bugfix was fixed.
 
-# A new version is updated when "poetry install" is ran again.
+# A new local version is updated when "poetry install" is ran again.
 poetry install
+
+# Building your package.
+poetry build
+
+# Publishing to TestPyPI
+poetry config repositories.test-pypi https://test.pypi.org/legacy/ (do it once)
+poetry config http-basic.test-pypi __token__ pypi-AgENdGVzdC5weXBpLm9yZwIkNjY0NDkyNTktMGQ4Zi00ZmNlLTgyNWEtMjcyMTNmYTQwNTdjAAIqWzMsImJmNWI0NjRkLWUwNjItNDhlMC05MzY1LTRkODUxNWM2MWJhYyJdAAAGIF8jxxNMh8O4uOVbLWEV7ZCo6gNxM5ONkcJN268tfiiI
+poetry publish -r test-pypi
+
+# Publishing to PyPI
+poetry config pypi-token.pypi pypi-AgEIcHlwaS5vcmcCJDA3YzM0MWRmLTJmZmYtNDY3Mi04ZjUzLTAzNzZhMzdlYTU3MAACKlszLCIxZDNlNjNmYi0wNmI3LTRlYTAtYTkwMC1hZjAzOTQzNWExNmYiXQAABiA7WnSHQxDrK6IwfProv-N6b5-0Cbaw8nGgIciwRv2S0w
+poetry publish

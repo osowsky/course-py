@@ -1,0 +1,8 @@
+# List all branches (locals and remotes)
+git branch -ad
+
+# Delete a local branch.
+git branch [ -d | --delete ] <branch-name>
+
+# Delete a remote branch.
+git push origin [ -d | --delete ] <branch-name>
