@@ -1,5 +1,5 @@
 # List all branches (locals and remotes)
-git branch -ad
+git branch -a
 
 # Delete a local branch.
 git branch [ -d | --delete ] <branch-name>
