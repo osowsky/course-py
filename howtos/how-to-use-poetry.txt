@@ -36,9 +36,9 @@ poetry build
 
 # Publishing to TestPyPI
 poetry config repositories.test-pypi https://test.pypi.org/legacy/ (do it once)
-poetry config http-basic.test-pypi __token__ pypi-AgENdGVzdC5weXBpLm9yZwIkNjY0NDkyNTktMGQ4Zi00ZmNlLTgyNWEtMjcyMTNmYTQwNTdjAAIqWzMsImJmNWI0NjRkLWUwNjItNDhlMC05MzY1LTRkODUxNWM2MWJhYyJdAAAGIF8jxxNMh8O4uOVbLWEV7ZCo6gNxM5ONkcJN268tfiiI
+poetry config http-basic.test-pypi <see pypi.txt passwords dir>
 poetry publish -r test-pypi
 
 # Publishing to PyPI
-poetry config pypi-token.pypi pypi-AgEIcHlwaS5vcmcCJDA3YzM0MWRmLTJmZmYtNDY3Mi04ZjUzLTAzNzZhMzdlYTU3MAACKlszLCIxZDNlNjNmYi0wNmI3LTRlYTAtYTkwMC1hZjAzOTQzNWExNmYiXQAABiA7WnSHQxDrK6IwfProv-N6b5-0Cbaw8nGgIciwRv2S0w
+poetry config pypi-token.pypi <see pypi.txt passwords dir>
 poetry publish
