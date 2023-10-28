@@ -1,4 +1,4 @@
-# Tutorial oficial for windows.
+# Tutorial oficial for windows (WSL).
 https://docs.microsoft.com/en-us/windows/wsl/install-win10
 
 # Passo 1 (PS as admin)
@@ -17,4 +17,5 @@ Passo 5 (PS admin)
 wsl --set-default-version 2
 
 Passo 6 (Install Docker)
-Tutorial: https://docs.docker.com/docker-for-windows/install/
+Tutorial:
+https://docs.docker.com/docker-for-windows/install/
