@@ -1,0 +1,20 @@
+# Tutorial oficial for windows.
+https://docs.microsoft.com/en-us/windows/wsl/install-win10
+
+# Passo 1 (PS as admin)
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+
+#Passo 2 (PS as admin)
+dism /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+
+# Passo 3
+Restart your computer.
+
+# Passo 4 (Downlod the Linux kernel update package)
+https://wslstorestorage.blog.core.windows.net/wslblob/wsl_update_x64.msi
+
+Passo 5 (PS admin)
+wsl --set-default-version 2
+
+Passo 6 (Install Docker)
+Tutorial: https://docs.docker.com/docker-for-windows/install/
