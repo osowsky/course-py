@@ -19,3 +19,13 @@ wsl --set-default-version 2
 Passo 6 (Install Docker)
 Tutorial:
 https://docs.docker.com/docker-for-windows/install/
+
+Passo 6 ( Add a common user to use Docker)
+1) run administrative tools as admin
+2) search for computer management
+3) open the folder local users and groups
+4) go to groups folder
+5) search for docker-users and add the common user.
+
+# Passo 7
+Restart your computer.
