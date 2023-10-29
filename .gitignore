@@ -13,3 +13,6 @@ venv/
 # Ignore build and dist directories.
 build/
 dist/
+
+# Ignore my-sql db files.
+my_sql_container/
