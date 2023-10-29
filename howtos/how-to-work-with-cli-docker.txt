@@ -1,0 +1,22 @@
+# upload container or start it (blocking)
+docker-compose up (Ctrl+C finish it)
+
+# Start it (nonblocking)
+docker-compose up -d
+
+# Stop it (nonblocking)
+docker-compose up -d
+
+# See containers that are running.
+docker ps
+CONTAINER ID   IMAGE     COMMAND                  
+70a981c96fcb   mysql:8   "docker-entrypoint.s…"
+
+# See existing containers.
+docker ps -a
+
+# Stop nonblocking container.
+docker container stop <container id from docker ps>
+
+# Start nonblocking container.
+docker container start <container id from docker ps>
